@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+bs4 = {version="*"}
+html5lib = {version="*"}
+lxml = {version="*"}
+pandas = {version="*"}
+pymongo = {version="*"}
+
+[requires]
+python_version = "3.6"
